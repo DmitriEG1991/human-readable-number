@@ -29,8 +29,6 @@ module.exports = function toReadable (a) {
                 break;
             case 9:
                 ret += "nine";
-                break;
-            case 0
                 break;       
         }    
     }
@@ -219,7 +217,7 @@ module.exports = function toReadable (a) {
                 one(strA[2]);
             } 
         }
-    }                       
+    }
     if(strA.length == 1 && strA != "0"){
         one(Number(strA));  
     }else if(strA.length == 2 && strA != "0"){
